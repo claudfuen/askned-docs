@@ -20,7 +20,7 @@ const siteConfig = {
   tagline: 'Documentation',
   url: 'http://askned.com' /* your website url */,
   baseUrl: '/a-docs/' /* base url for your project */,
-  projectName: 'AskNed Docs',
+  projectName: 'a-docs',
   headerLinks: [
     {doc: 'doc1', label: 'Docs'},
     {doc: 'doc4', label: 'Getting Started'},
