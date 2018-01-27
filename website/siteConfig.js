@@ -9,39 +9,39 @@
 const users = [
   {
     caption: 'User1',
-    image: '/test-site/img/docusaurus.svg',
+    image: 'img/asknedLogo.png',
     infoLink: 'https://www.facebook.com',
     pinned: true,
   },
 ];
 
 const siteConfig = {
-  title: 'Test Site' /* title for your website */,
-  tagline: 'A website for testing',
-  url: 'https://facebook.github.io' /* your website url */,
-  baseUrl: '/test-site/' /* base url for your project */,
-  projectName: 'test-site',
+  title: 'AskNed' /* title for your website */,
+  tagline: 'Documentation',
+  url: 'http://askned.com' /* your website url */,
+  baseUrl: '/a-docs/' /* base url for your project */,
+  projectName: 'AskNed Docs',
   headerLinks: [
     {doc: 'doc1', label: 'Docs'},
-    {doc: 'doc4', label: 'API'},
+    {doc: 'doc4', label: 'Getting Started'},
     {page: 'help', label: 'Help'},
-    {blog: true, label: 'Blog'},
+    {blog: false, label: 'Blog'},
   ],
   users,
   /* path to images for header/footer */
-  headerIcon: 'img/docusaurus.svg',
-  footerIcon: 'img/docusaurus.svg',
+  headerIcon: 'img/asknedLogo.png',
+  footerIcon: 'img/asknedLogo.png',
   favicon: 'img/favicon.png',
   /* colors for website */
   colors: {
-    primaryColor: '#2E8555',
-    secondaryColor: '#205C3B',
+    primaryColor: '#0A8CF7',
+    secondaryColor: '#0773CC',
   },
   // This copyright info is used in /core/Footer.js and blog rss/atom feeds.
   copyright:
     'Copyright © ' +
     new Date().getFullYear() +
-    ' Your Name or Your Company Name',
+    ' AskNed Inc.',
   // organizationName: 'deltice', // or set an env variable ORGANIZATION_NAME
   // projectName: 'test-site', // or set an env variable PROJECT_NAME
   highlight: {

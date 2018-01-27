@@ -14,3 +14,26 @@
 
 @media only screen and (min-width: 1500px) {
 }
+
+
+@import url("https://fonts.googleapis.com/css?family=Oxygen");
+
+body {
+  font-family: Oxygen, sans-serif;
+}
+
+
+.navGroups {
+  box-shadow: 0px 3px 6px rgba(0,0,0,0.15);
+}
+
+
+nav.toc .toggleNav .navGroup {
+  background: #EFEFEF !important;
+  margin: 0px;
+}
+
+
+footer.nav-footer {
+  background: #2A333B;
+}
