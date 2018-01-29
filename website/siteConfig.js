@@ -22,9 +22,8 @@ const siteConfig = {
   baseUrl: '/a-docs/' /* base url for your project */,
   projectName: 'a-docs',
   headerLinks: [
-    {doc: 'doc1', label: 'Docs'},
-    {doc: 'doc4', label: 'Getting Started'},
-    {page: 'help', label: 'Help'},
+    {doc: 'getting-started', label: 'Getting Started'},
+    {page: 'docs/dashboard', label: 'Documentation'},
     {blog: false, label: 'Blog'},
   ],
   users,

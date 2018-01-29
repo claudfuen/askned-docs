@@ -76,13 +76,13 @@ class HomeSplash extends React.Component {
     let language = this.props.language || '';
     return (
       <SplashContainer>
-        <Logo img_src={imgUrl('docusaurus.svg')} />
+        <Logo img_src={imgUrl('asknedLogo.png')} />
         <div className="inner">
           <ProjectTitle />
           <PromoSection>
-            <Button href="#try">Try It Out</Button>
-            <Button href={docUrl('doc1.html', language)}>Example Link</Button>
-            <Button href={docUrl('doc2.html', language)}>Example Link 2</Button>
+            <Button href={docUrl('getting-started.html', language)}>Getting Started</Button>
+            <Button href={docUrl('dashboard.html', language)}>Docs</Button>
+            <Button href={docUrl('help.html', language)}>Help</Button>
           </PromoSection>
         </div>
       </SplashContainer>
@@ -104,15 +104,15 @@ const Features = props => (
     {[
       {
         content: 'This is the content of my feature',
-        image: imgUrl('docusaurus.svg'),
+        image: imgUrl('results-page.png'),
         imageAlign: 'top',
-        title: 'Feature One',
+        title: 'Dashboard',
       },
       {
         content: 'The content of my second feature',
-        image: imgUrl('docusaurus.svg'),
+        image: imgUrl('results-page.png'),
         imageAlign: 'top',
-        title: 'Feature Two',
+        title: 'Results',
       },
     ]}
   </Block>
@@ -122,7 +122,7 @@ const FeatureCallout = props => (
   <div
     className="productShowcaseSection paddingBottom"
     style={{textAlign: 'center'}}>
-    <h2>Feature Callout</h2>
+    <h2>SmartInsights</h2>
     <MarkdownBlock>These are features of this project</MarkdownBlock>
   </div>
 );
@@ -132,7 +132,7 @@ const LearnHow = props => (
     {[
       {
         content: 'Talk about learning how to use this',
-        image: imgUrl('docusaurus.svg'),
+        image: imgUrl(''),
         imageAlign: 'right',
         title: 'Learn How',
       },
@@ -145,7 +145,7 @@ const TryOut = props => (
     {[
       {
         content: 'Talk about trying this out',
-        image: imgUrl('docusaurus.svg'),
+        image: imgUrl(''),
         imageAlign: 'left',
         title: 'Try it Out',
       },
@@ -158,7 +158,7 @@ const Description = props => (
     {[
       {
         content: 'This is another description of how this project is useful',
-        image: imgUrl('docusaurus.svg'),
+        image: imgUrl(''),
         imageAlign: 'right',
         title: 'Description',
       },
